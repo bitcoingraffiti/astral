@@ -50,6 +50,7 @@
           @focus='textareaFocus'
           @blur='textareaBlur'
           @keypress.ctrl.enter="send"
+          @keydown.meta.enter="send"
           @click.stop='updateText'
           @touchstart.stop
           @mousedown.stop
